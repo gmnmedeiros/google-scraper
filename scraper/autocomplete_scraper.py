@@ -7,7 +7,7 @@ import requests
 
 class GoogleScraper():
 
-    def __init__(self, query, country, language):
+    def __init__(self, query: str, country: str, language: str):
         self.url = "https://www.google.com/complete/search"
         self.params: dict[str:str] = {
             "client": "chrome",

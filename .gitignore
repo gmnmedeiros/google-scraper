@@ -3,3 +3,7 @@ __blobstorage__/
 .pytest_cache
 __azurite_db_blob__.json
 __azurite_db_blob_extent__.json
+
+.DS_store
+
+.env
